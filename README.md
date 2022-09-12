@@ -3,7 +3,7 @@ REST API built with express and documented with swaggerUI/openAPI
 
 # Setting up a dev environment
 
-I added a Swagger UI documentation to OpenAPI specification which provides a UI for quickly testing out the API. I have also written some teste using Mocha for further review. It's almost 1am now so I'll get some rest. Thank you once again for considering me for this role. I look forward to hearing from you.
+I added a Swagger UI documentation to OpenAPI specification which provides a UI for quickly testing out the API. I have also written some tests using Mocha and Chai for further review.
 
 ### Prerequisites
 
