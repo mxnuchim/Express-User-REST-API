@@ -2,8 +2,8 @@
     "openapi": "3.0.0",
     "info": {
         "version": "1.0.0",
-        "title": "Nodejs + Mongodb REST API assessment",
-        "description": "Nodejs + Mongodb Project Assessment API",
+        "title": "Nodejs + Mongodb REST API",
+        "description": "Nodejs + Mongodb Project API",
         "license": {
             "name": "MIT",
             "url": "https://opensource.org/license/MIT"
