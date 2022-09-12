@@ -11,12 +11,12 @@ const app = express()
 connectDB()
 
 // set port 
-const port = process.env.PORT || 8001
+const port = process.env.PORT || 5001
 // parse request of content-type - application/json
 app.use(express.json())
 //define a root route
 app.get("/",(req,res)=>{
-    res.send("Welcome Everybody")
+    res.send("Welcome to the home page everyone. Please go to /api-docs to test the api")
 })
 // router
 app.use("/api/user", require("./routes/user-routes"))
