@@ -10,9 +10,10 @@ chai.should();
 describe("/POST user", () => {
   it("it should CREATE user", (done) => {
     let user = {
-      username: "test",
-      password: "test",
-      email: "test"
+      userId: "test",
+      firstName: "test",
+      lastName: "test",
+      accountId: "test"
     };
 
     chai
@@ -29,7 +30,7 @@ describe("/POST user", () => {
 
 describe("/PATCH/:id user", () => {
   it("it should UPDATE user by id", (done) => {
-    const id = "62f52e9893da198c1563f1bc";
+    const id = "631fbab75d43baa9ff8eeb50";
     let user = {
       _id: id,
       username: "test",
